@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nonprofit Organization</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Our Nonprofit Organization</h1>
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>Describe the mission of your nonprofit organization here.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Ongoing Projects</h2>
+        <p>Highlight some of the ongoing projects and their impact.</p>
+        <!-- You can list projects and their details here -->
+    </section>
+
+    <section id="donate">
+        <h2>Donate</h2>
+        <p>Your generous donations make a difference. Please consider contributing.</p>
+        <form action="donation_process.php" method="POST">
+            <!-- Add donation form fields here (e.g., name, email, amount) -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="number" name="amount" placeholder="Donation Amount" required>
+            <button type="submit">Donate Now</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get involved, feel free to reach out to us:</p>
+        <!-- Add contact information here (e.g., email, phone) -->
+        <p>Email: contact@example.org</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nonprofit Organization</p>
+    </footer>
+</body>
+</html>
